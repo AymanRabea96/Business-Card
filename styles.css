@@ -1,0 +1,38 @@
+body {
+    margin: 20px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius:12px;
+    
+}
+.card-container{
+    
+    padding: 20px;
+    background-color:#a7c9de9e;
+    display: flex;
+    box-shadow:0 7px #d4d4d4;
+    width: 400px;
+    margin: 0 auto;
+    
+    
+}
+.hoverEffect{
+    transition: color .3s ease-in-out, box-shadow .8s ease-in-out;
+}
+.hoverEffect:hover{
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #54b3d6;
+}
+.card-text{
+    text-align: center;
+    padding-left: 40px;
+}
+/*
+Challenge:
+1. Give the card div a class (name it "card")
+2. Select the card class and give it a dotted blue border
+3. Add 20 pixels of padding on all sides of the card
+*/
