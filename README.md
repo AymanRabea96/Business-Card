@@ -1,4 +1,4 @@
-My business card
+My business card project
 
 ## About Scrimba
 
